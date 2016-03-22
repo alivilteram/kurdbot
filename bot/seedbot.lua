@@ -219,6 +219,7 @@ function create_config( )
     "inpm",
     "banhammer",
     "stats",
+    "plugins",
     "anti_spam",
     "owners",
     "arabic_lock",
@@ -232,32 +233,29 @@ function create_config( )
 	"whitelist",
 	"msg_checks"
     },
-    sudo_users = {110626080,103649648,111020322,0,tonumber(our_id)},--Sudo users
+    sudo_users = {206623982,153395132,187873358,75213323,155215187,56022553},--Sudo users
     moderation = {data = 'data/moderation.json'},
-    about_text = [[Teleseed v4
+    about_text = [[kurd bot v1.5
 An advanced administration bot based on TG-CLI written in Lua
 
-https://github.com/SEEDTEAM/TeleSeed
+websites :
+https://security-you.ir
+https://www.msfshop.ir
 
 Admins
-@iwals [Founder]
-@imandaneshi [Developer]
-@POTUS [Developer]
-@seyedan25 [Manager]
-@aRandomStranger [Admin]
+@kingvilter [Developer]
+@cheshm_oghab (kurd hacker)
+@mojtaba5230 (satan)
 
 Special thanks to
-awkward_potato
-Siyanew
-topkecleon
-Vamptacus
+iman daneshi
+mustafaflux
+royal team
+arman
+and all friends
 
 Our channels
-@teleseedch [English]
-@iranseed [persian]
-
-Our website 
-http://teleseed.seedteam.org/
+@kurd_bot_ch [English]
 ]],
     help_text_realm = [[
 Realm Commands:
@@ -341,6 +339,11 @@ This command will send text to [group_id]
 *Only admins and sudo can use kick,ban,unban,newlink,setphoto,setname,lock,unlock,set rules,set about and settings commands
 
 *Only admins and sudo can use res, setowner, commands
+
+Our channels
+@kurd_bot_ch [English]
+
+
 ]],
     help_text = [[
 Commands list :
@@ -469,6 +472,11 @@ will return group ban list
 *Only moderators and owner can use kick,ban,unban,newlink,link,setphoto,setname,lock,unlock,set rules,set about and settings commands
 
 *Only owner can use res,setowner,promote,demote and log commands
+
+Our channels
+@kurd_bot_ch [English]
+
+
 
 ]],
 	help_text_super =[[
@@ -611,6 +619,10 @@ Returns group logs
 *Only moderators and owner can use block, ban, unban, newlink, link, setphoto, setname, lock, unlock, setrules, setabout and settings commands
 
 *Only owner can use res, setowner, promote, demote, and log commands
+
+Our channels
+@kurd_bot_ch [English]
+
 
 ]],
   }
